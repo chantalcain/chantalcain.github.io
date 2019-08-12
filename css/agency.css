@@ -10,9 +10,19 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-about {
+  color: #ffffff;
+}
 .text-primary {
   color: #f63;
 }
+.text-heading {
+    color:orange;
+}
+.text-subheading {
+    color:red;
+}
+
 p {
   font-size: 14px;
   line-height: 1.75;
