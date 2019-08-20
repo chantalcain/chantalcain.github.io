@@ -14,14 +14,14 @@ body {
   color: rgba(255,255,255,0.4);
 }
 .text-primary {
-  color: #f63;
+  color: #f63fcc;
 }
 .text-heading {
-    color:orange;
+    color:white;
 }
 
 .text-subheading {
-    color:red;
+    color:#63B2FE;
 }
 
 p {
@@ -39,13 +39,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #f63;
+  color: #f63fcc;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #f63;
+  color: #f63fcc;
 }
 h1,
 h2,
@@ -61,15 +61,15 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #eeeeee;
+  background-color: #071A7F;
 }
 .bg-darkest-gray {
   background-color: #222222;
 }
 .btn-primary {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #f63fcc;
+  border-color: #f63fcc;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -80,8 +80,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #f63fcc;
+  border-color: #f63fcc;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -103,17 +103,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #f63fcc;
+  border-color: #f63fcc;
 }
 .btn-primary .badge {
-  color: #f63;
+  color: #f63fcc;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #020df8; 
+  border-color: #020df8;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -127,8 +127,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #f63fcc;
+  border-color: #f63fcc;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -150,11 +150,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #f63fcc;
+  border-color: #f63fcc;
 }
 .btn-xl .badge {
-  color: #f63;
+  color: #f63fcc;
   background-color: white;
 }
 .navbar-custom {
@@ -169,14 +169,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #f63fcc;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #f63;
-  border-color: #f63;
+  background-color: #f63fcc;
+  border-color: #f63fcc;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #f63;
+  background-color: #f63fcc;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -195,18 +195,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #f63;
+  color: #f63fcc;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #f63;
+  background-color: #f63fcc;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #f63;
+  background-color: #f63fcc;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -257,7 +257,7 @@ header .intro-text .intro-lead-in {
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -295,6 +295,7 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+    color: white;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -324,7 +325,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(120, 129, 177, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -428,11 +429,11 @@ section h3.section-subheading {
 .timeline > li .timeline-image {
   left: 0;
   margin-left: 0;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   position: absolute;
   z-index: 100;
-  background-color: #f63;
+  background-color: #020df8;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
